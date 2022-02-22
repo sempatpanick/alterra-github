@@ -13,9 +13,24 @@
         <input type="text" name="nama">
         <label for="nim">NIM</label>
         <input type="text" name="nim">
-        <label for="umur">Umur</label>
-        <input type="number" name="umur">
+        <label for="tanggal_lahir">Tanggal Lahir</label>
+        <input type="date" name="tanggal_lahir">
         <button type="submit" name="submit">Kirim</button>
     </form>
+    <?php
+        if (isset($_POST['submit'])) {
+            $nama = $_POST['nama'];
+            $tanggalLahir = $_POST['tanggal_lahir'];
+            $nim = $_POST['nim'];
+
+echo "Data berhasil diinput
+<pre>
+Nama          : ".$nama."
+Tanggal Lahir : ".$tanggalLahir."
+NIM           : ".$nim."
+            </pre>
+";
+        }
+    ?>
 </body>
 </html>
