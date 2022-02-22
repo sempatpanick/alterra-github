@@ -8,13 +8,13 @@
 </head>
 <body>
     <form action="/" method="post">
-        <h2>Input Data Mahasiswa Baru Universitas Bandung</h2>
+        <h1>Input Data Mahasiswa Baru Universitas Bandung</h1>
         <label for="nama">Nama</label>
-        <input type="text" name="nama">
+        <input type="text" name="nama" id="nama" placeholder="Masukkan nama mahasiswa..">
         <label for="nim">NIM</label>
-        <input type="text" name="nim">
+        <input type="text" name="nim" id="nama" placeholder="Masukkan nim mahasiswa..">
         <label for="tanggal_lahir">Tanggal Lahir</label>
-        <input type="date" name="tanggal_lahir">
+        <input type="date" name="tanggal_lahir" id="nama" placeholder="Masukkan tanggal lahir mahasiswa..">
         <button type="submit" name="submit">Kirim</button>
     </form>
     <?php
