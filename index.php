@@ -16,6 +16,7 @@
         <label for="tanggal_lahir">Tanggal Lahir</label>
         <input type="date" name="tanggal_lahir">
         <button type="submit" name="submit">Kirim</button>
+        <button type="reset">Reset</button>
     </form>
     <?php
         if (isset($_POST['submit'])) {
