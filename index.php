@@ -8,7 +8,7 @@
 </head>
 <body>
     <form action="/" method="post">
-        <h1>Input Data Mahasiswa Baru</h1>
+        <h1>Input Data Mahasiswa Baru Universitas Pamulang</h1>
         <label for="nama">Nama</label>
         <input type="text" name="nama">
         <label for="nim">NIM</label>
