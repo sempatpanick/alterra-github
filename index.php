@@ -21,14 +21,14 @@
     <?php
         if (isset($_POST['submit'])) {
             $nama = $_POST['nama'];
-            $tanggalLahir = $_POST['tanggal_lahir'];
             $nim = $_POST['nim'];
+            $tanggalLahir = $_POST['tanggal_lahir'];
 
 echo "Data berhasil diinput
 <pre>
 Nama          : ".$nama."
-Tanggal Lahir : ".$tanggalLahir."
 NIM           : ".$nim."
+Tanggal Lahir : ".$tanggalLahir."
             </pre>
 ";
         }
